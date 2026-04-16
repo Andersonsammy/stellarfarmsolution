@@ -21,13 +21,13 @@ export default function Home() {
           </Reveal>
           
           <Reveal delay={0.2}>
-            <h1 className="text-[clamp(3.5rem,7vw,6.5rem)] font-serif text-ink font-bold leading-[1.05] mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900">
               Stellar Farm Solutions
             </h1>
           </Reveal>
 
           <Reveal delay={0.3}>
-            <p className="text-lg md:text-2xl text-body-text font-light max-w-3xl mb-12">
+            <p className="mt-4 text-lg text-gray-800">
               Professional soil testing, honest advice, and fair market connections to make your farm thrive.
             </p>
           </Reveal>
