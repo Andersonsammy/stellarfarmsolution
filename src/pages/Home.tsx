@@ -9,8 +9,9 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center justify-center text-center px-6 pt-16 overflow-hidden">
         {/* Light, airy overlay instead of dark */}
         <div className="absolute inset-0 bg-[url('https://i.pinimg.com/originals/65/3a/4d/653a4dc83f04d912aa9d204201fb7139.jpg')] bg-cover bg-center bg-fixed" />
-        <div className="absolute inset-0 bg-ivory/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-linen/90 via-linen/30 to-white/40" />
+      <div className="absolute inset-0 bg-[url('https://i.pinimg.com/originals/65/3a/4d/653a4dc83f04d912aa9d204201fb7139.jpg')] bg-cover bg-center brightness-90 contrast-110" />
+
+       <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
 
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
           <Reveal delay={0.1}>
