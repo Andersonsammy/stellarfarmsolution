@@ -9,9 +9,8 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center justify-center text-center px-6 pt-16 overflow-hidden">
         {/* Light, airy overlay instead of dark */}
         <div className="absolute inset-0 bg-[url('https://i.pinimg.com/originals/65/3a/4d/653a4dc83f04d912aa9d204201fb7139.jpg')] bg-cover bg-center bg-fixed" />
-      <div className="absolute inset-0 bg-[url('https://i.pinimg.com/originals/65/3a/4d/653a4dc83f04d912aa9d204201fb7139.jpg')] bg-cover bg-center brightness-110 contrast-105" />
-
-       <div className="absolute inset-0 bg-white/30" />
+        <div className="absolute inset-0 bg-ivory/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-linen/90 via-linen/30 to-white/40" />
 
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
           <Reveal delay={0.1}>
@@ -21,13 +20,13 @@ export default function Home() {
           </Reveal>
           
           <Reveal delay={0.2}>
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900">
+            <h1 className="text-[clamp(3.5rem,7vw,6.5rem)] font-serif text-ink font-bold leading-[1.05] mb-6">
               Stellar Farm Solutions
             </h1>
           </Reveal>
 
           <Reveal delay={0.3}>
-            <p className="mt-4 text-lg text-gray-800">
+            <p className="text-lg md:text-2xl text-body-text font-light max-w-3xl mb-12">
               Professional soil testing, honest advice, and fair market connections to make your farm thrive.
             </p>
           </Reveal>
